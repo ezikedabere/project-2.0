@@ -1,0 +1,64 @@
+<style>
+  .friend-request {
+    display: inline-block;
+    box-shadow: 0px 0px .4rem 0.01rem;
+  }
+
+  .friend-request:hover {
+    cursor: pointer;
+  }
+
+  .picture {
+    width: 180px;
+    height: 170px;
+  }
+
+  .name {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+
+  .friend {
+    font-family: Arial;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    color: gray;
+  }
+
+  .add {
+    font-family: Arial;
+    margin-top: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    background-color: rgb(45, 115, 207);
+    border: solid;
+    border-color: rgb(45, 115, 207);
+    border-radius: 5px;
+  }
+
+  .add:hover {
+    cursor: pointer;
+    scale: 1.05;
+    transform-origin: top left right bottom;
+    transition: 0.15s;
+  }
+
+  .card-desc {
+    padding: 1rem;
+  }
+
+</style>
+<div class="friend-request">
+  <img class="picture" src="jpg/cat.jpg" alt="">
+  <div class="card-desc">
+    <p class="name">Oliver</p>
+    <p class="friend">2 mutual friends</p>
+    <button class="add">Add Friend</button>
+  </div>
+</div>
